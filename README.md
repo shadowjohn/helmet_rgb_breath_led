@@ -3,6 +3,10 @@
 
 之前在安全帽上黏的黃色小鴨，如果在夜晚可以發出光芒就太美好了
 <hr>
+<img src="snapshot/s1.jpg">
+<br>
+<img src="snapshot/s2.jpg">
+<br>
 
 關聯套件：
 	1. SystemStatus 可以用來讀出 Attiny VCC 電壓，且不用增加任何電路
