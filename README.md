@@ -7,7 +7,12 @@
 <br>
 <img src="snapshot/s2.jpg">
 <br>
-
+<h3>最初開發日期：</h3>
+2024-07-07
+<br>
+<h3>最後更新日期：</h3>
+2025-12-02
+<br>
 <h3>關聯套件：</h3>
 <ul>
 	<li>1. SystemStatus 可以用來讀出 Attiny VCC 電壓，且不用增加任何電路</li>
@@ -33,3 +38,6 @@ ATTiny85 需使用 8mHZ 燒錄至 bootloader
 	<li>3. https://github.com/datacute/Tiny4kOLED</li>
 	<li>4. https://github.com/adafruit/Adafruit_NeoPixel</li>
 </ul>
+
+<h3>Changelog:</h3>
+(Done 2025-12-02) 1. 修正剛開機時會閃一下白光的問題

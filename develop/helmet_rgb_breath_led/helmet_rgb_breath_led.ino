@@ -22,6 +22,10 @@ Adafruit_NeoPixel strip = Adafruit_NeoPixel(ALL_NUM_LEDS, LED_PIN, NEO_GRB + NEO
 
 
 void setup() {
+    // 將所有 LED 關閉  
+    for (int i = 0; i < NUM_LEDS; i++) {               
+        strip.setPixelColor(i, strip.Color(0, 0, 0));
+    }    	
     strip.begin();
     strip.show();  // 將所有 LED 關閉
 
